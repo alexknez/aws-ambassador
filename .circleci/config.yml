@@ -173,7 +173,7 @@ jobs:
       - load-docker-image
       - aws-cli/setup:
           profile_name: default
-          role_arn: arn:aws:iam::992382483259:role/ambassador
+          role_arn: arn:aws:iam::196110511856:role/ambassador
           role_session_name: example-session
       - aws-ecr/ecr_login:
           public_registry: true
