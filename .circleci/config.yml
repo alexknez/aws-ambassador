@@ -286,7 +286,6 @@ workflows:
           requires:
             - "Testing << matrix.architecture >> Container Image"
             - "Testing Python Code"
-            - "Scan << matrix.architecture >> Container Image"
       - publish-manifest:
           name: "Publish Manifest to ECR"
           requires:
